@@ -1,0 +1,469 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.listok
+{
+	border:transparent;
+	height: 4530px;
+}
+
+.list_mek
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:transparent;
+	height: 720px;
+	background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(bmw-g60-6.jpg); 
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: scroll;
+	clip-path: polygon(0 0,100% 0, 100% 80%, 0 90%);
+
+}
+
+.menu_mek
+{
+	border: transparent;
+	width: 400px;
+	height:100px ;
+	text-align: center;
+	color: white;
+
+}
+
+h1
+{
+	font-size: 50px;
+}
+
+.menu_erku
+{
+	position: relative;
+	border: transparent;
+	height: 1220px;
+}
+
+.absolute_mek
+{
+	position: absolute;
+	border:transparent;
+	width: 400px;
+	height: 50px;
+	top: 30px;
+	left: 40px;
+}
+
+.blue
+{
+	color: #20B9D3;
+}
+
+.absolute_erku
+{
+	position: absolute;
+	
+	border-top: groove;
+	border-left: solid silver 5px;
+	border-right:transparent ;
+	border-bottom:groove ;
+	width: 200px;
+	height: 200px;
+	top: 200px;
+	left: 40px;
+}
+
+.absolute_ereq
+{
+	position: absolute;
+	border: transparent;
+	width: 150px;
+	height: 150px;
+	top: 130px;
+	left: 100px;
+	background-image: url("caxik.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.absolute_chors
+{
+	position: absolute;
+	border: groove;
+	width: 1100px;
+	height: 150px;
+	top: 130px;
+	left: 300px;
+	
+}
+
+.absolute_hing
+{
+	position: absolute;
+	border: transparent;
+	width: 150px;
+	height: 150px;
+	top: 330px;
+	left: 130px;
+	background-image: url("yasaman.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: 9;
+}
+
+.absolute_vec
+{
+	position: absolute;
+	border: groove;
+	width: 1100px;
+	height: 150px;
+	top: 330px;
+	left: 330px;
+	
+}
+
+.absolute_jot
+{
+	position: absolute;
+	
+	border-top: groove;
+	border-left: solid silver 5px;
+	border-right:transparent ;
+	border-bottom:groove ;
+	width: 200px;
+	height: 200px;
+	top: 402px;
+	left: 40px;
+}
+.absolute_ut
+{
+	position: absolute;
+	
+	border-top: groove;
+	border-left: solid silver 5px;
+	border-right:transparent ;
+	border-bottom:groove ;
+	width: 200px;
+	height: 200px;
+	top: 604px;
+	left: 40px;
+}
+
+.absolute_inny
+{
+	position: absolute;
+	
+	border-top: groove;
+	border-left: solid silver 5px;
+	border-right:transparent ;
+	border-bottom:groove ;
+	width: 200px;
+	height: 200px;
+	top: 806px;
+	left: 40px;
+}
+
+.absolute_tas
+{
+	position: absolute;
+	
+	border-top: groove;
+	border-left: solid silver 5px;
+	border-right:transparent ;
+	border-bottom:transparent ;
+	width: 200px;
+	height: 100px;
+	top:1008px;
+	left: 40px;
+}
+
+.absolute_tasnmek
+{
+	position: absolute;
+	
+	border-radius: 50%;
+	background-color: silver;
+	width: 50px;
+	height: 50px;
+	top:1110px;
+	left: 17px;
+}
+
+.absolute_tasnerku
+{
+	position: absolute;
+	border: transparent;
+	width: 150px;
+	height: 150px;
+	top: 530px;
+	left: 100px;
+	background-image: url("harsanekan.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.absolute_tasnereq
+{
+	position: absolute;
+	border: groove;
+	width: 1100px;
+	height: 150px;
+	top: 530px;
+	left: 300px;
+	
+}
+
+.orang
+{
+	color: orange;
+}
+
+.absolute_tasnchors
+{
+	position: absolute;
+	border: transparent;
+	width: 150px;
+	height: 150px;
+	top: 730px;
+	left: 130px;
+	background-image: url("kaput.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.absolute_tasnhing
+{
+	position: absolute;
+	border: groove;
+	width: 1100px;
+	height: 150px;
+	top: 730px;
+	left: 330px;
+	
+}
+
+.absolute_tasnvec
+{
+	position: absolute;
+	border: transparent;
+	width: 150px;
+	height: 150px;
+	top: 930px;
+	left: 160px;
+	background-image: url("vard.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.absolute_tasnjot
+{
+	position: absolute;
+	border: groove;
+	width: 1100px;
+	height: 150px;
+	top: 930px;
+	left: 360px;
+	
+}
+
+.menu_ereq
+{
+	border: transparent;
+	height: 720px;
+	background-image: url("daroga.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	clip-path: polygon(0 0,100% 10%, 100% 90%, 0 100%);
+}
+
+.section_mek
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border: transparent;
+	width: 500px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 50px;
+
+}
+
+.inside_mek
+{
+	width: 400px;
+	height: 250px;
+	border: transparent;
+}
+
+.whith
+{
+	color: white;
+}
+.inside_erku
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: transparent;
+	width: 400px;
+	height: 100px;
+}
+
+.sexmak_mek
+{
+	background-color: white;
+	padding: 15px 30px;
+}
+
+
+.menu_chors
+{
+	border: transparent;
+	height: 720px;
+
+}
+
+.section_erku
+{
+	border: transparent;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+.section_ereq
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: transparent;
+	width: 100%;
+	height: 550px;
+	text-align: center;
+}
+
+.inside_ereq
+{
+	border: transparent;
+	width: 400px;
+	height: 500px;
+}
+
+.box_mek
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	border: transparent;
+}
+
+.box_erku
+{
+	display: flex;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+	height: 300px;
+	border: transparent;
+}
+
+.box_ereq
+{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	border: transparent;
+}
+
+.sexmak_erku
+{
+	color: white;
+	background-color: #20B9D3;
+	border: transparent;
+	padding: 15px 50px;
+}
+
+.icon
+{
+	font-size: 50px;
+}
+
+.menu_hing
+{
+	border: transparent;
+	height: 720px;
+	background-image: url("turma.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	clip-path: polygon(0 10%,100% 0, 100% 100%, 0 100%);
+}
+
+
+.section_chors
+{
+	width: 500px;
+	height: 600px;
+	border: transparent;
+}
+
+.form_mek
+{
+	padding: 16px 60px;
+	border-radius: 6px;
+
+}
+
+.form_mek::placeholder
+{color:#20B9D3;}
+
+
+
+.sexmak_hing
+{
+	border: transparent;
+	border-radius: 5px;
+	padding: 10px 30px;
+	color: white;
+	background-color: #20B9D3;
+}
+
+.section_hing
+{
+	width: 600px;
+	height: 600px;
+	border: transparent;
+}
+
+.box_chors
+{
+	border: transparent;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+}
+
+.box_hing
+{
+	border: transparent;
+	width: 100%;
+	height: 400px;
+	
+	text-align: left;
+}
