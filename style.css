@@ -1,469 +1,596 @@
-*
-{
-	margin: 0px;
-	padding: 0px;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.listok
-{
-	border:transparent;
-	height: 4530px;
-}
-
-.list_mek
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border:transparent;
-	height: 720px;
-	background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(bmw-g60-6.jpg); 
-	background-size: 100% 100%;
-	background-position: center;
-	background-attachment: scroll;
-	clip-path: polygon(0 0,100% 0, 100% 80%, 0 90%);
-
-}
-
-.menu_mek
-{
+#main_menu{
 	border: transparent;
-	width: 400px;
-	height:100px ;
-	text-align: center;
-	color: white;
+	width: 100%;
+}
+
+#logo_ul_menu{
+	border: transparent;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image:  linear-gradient(180deg,rgba(6,147,227,1)10%,rgb(155,81,224) 100%);
+;
+
 
 }
 
-h1
-{
+#logo{
+	border:transparent;
+	width: 20%;
+	height: 90%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+#main_title{
 	font-size: 50px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Lobster', cursive;
+	font-family: 'Prata', serif;
 }
 
-.menu_erku
-{
+
+#ul_li{
+	border: transparent ;
+	width: 60%;
+	height:30%;
+
+	
+}
+
+ul{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	list-style: none;
+}
+
+li{
 	position: relative;
-	border: transparent;
-	height: 1220px;
+	display: block;
+	transition: 0.5s;
+	cursor: pointer;
+	
+}
+li:after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	top: 100%;
+	left: 0;
+	transition: transform 0.5s;
+	transform: scaleX(0);
+	transform-origin: left;
+	background-color: #10F1FF;
 }
 
-.absolute_mek
-{
-	position: absolute;
+li:hover{
+	color: #10F1FF;
+}
+li:hover::after{
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+
+}
+
+a:hover{
+	color: #10F1FF;
+	transition: transform 0.5s;
+
+
+}
+#media_foto{
+	border: transparent;
+	width: 10%;
+	height: 90%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background-color: black;
+	background-image: url("watch.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+
+#media_icon{
+	border: transparent;
+	width: 10%;
+	height: 90%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	display: none;
+
+}
+
+
+
+
+
+#watch_foto{
+	display: flex;
+	justify-content: space-around;
+    align-items: center;		
+    border: transparent;
+	width: 100%;
+	height: 700px;
+	background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(mexanizm.jpg); 
+	background-position: center;
+	background-size: cover;
+
+
+}
+
+
+
+#box1{
+	border: solid 1px blueviolet;
+ 	border-top-left-radius: 15% ;
+ 	border-bottom-right-radius: 15%;
+ 	width: 22%;
+	height: 70%;
+	background-image:url(watch1.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+#box2{
+	border: solid 1px blueviolet;
+	border-top-left-radius: 15% ;
+ 	border-bottom-right-radius: 15%;
+	width: 22%;
+	height: 70%;
+	background-image:url(watch2.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+#box3{
+	border: solid 1px blueviolet;
+	border-top-left-radius: 15% ;
+ 	border-bottom-right-radius: 15%;
+	width: 22%;
+	height: 70%;
+	background-image:url(watch3.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+#box4{
+	border: solid 1px blueviolet;
+	border-top-left-radius: 15% ;
+ 	border-bottom-right-radius: 15%;
+	width: 22%;
+	height: 70%;
+	background-image:url(watch4.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+
+}
+
+#buy_watch{
+	border: transparent;
+	width: 100%;
+	height:400px;
+	background-image: url("rolexmag.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#houre{
+	border: transparent ;
+	width: 70%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#hours{
 	border:transparent;
-	width: 400px;
-	height: 50px;
-	top: 30px;
-	left: 40px;
-}
-
-.blue
-{
-	color: #20B9D3;
-}
-
-.absolute_erku
-{
-	position: absolute;
-	
-	border-top: groove;
-	border-left: solid silver 5px;
-	border-right:transparent ;
-	border-bottom:groove ;
-	width: 200px;
-	height: 200px;
-	top: 200px;
-	left: 40px;
-}
-
-.absolute_ereq
-{
-	position: absolute;
-	border: transparent;
-	width: 150px;
-	height: 150px;
-	top: 130px;
-	left: 100px;
-	background-image: url("caxik.jpg");
-	background-size: cover;
-	background-position: center;
-}
-
-.absolute_chors
-{
-	position: absolute;
-	border: groove;
-	width: 1100px;
-	height: 150px;
-	top: 130px;
-	left: 300px;
-	
-}
-
-.absolute_hing
-{
-	position: absolute;
-	border: transparent;
-	width: 150px;
-	height: 150px;
-	top: 330px;
-	left: 130px;
-	background-image: url("yasaman.jpg");
-	background-size: cover;
-	background-position: center;
-	z-index: 9;
-}
-
-.absolute_vec
-{
-	position: absolute;
-	border: groove;
-	width: 1100px;
-	height: 150px;
-	top: 330px;
-	left: 330px;
-	
-}
-
-.absolute_jot
-{
-	position: absolute;
-	
-	border-top: groove;
-	border-left: solid silver 5px;
-	border-right:transparent ;
-	border-bottom:groove ;
-	width: 200px;
-	height: 200px;
-	top: 402px;
-	left: 40px;
-}
-.absolute_ut
-{
-	position: absolute;
-	
-	border-top: groove;
-	border-left: solid silver 5px;
-	border-right:transparent ;
-	border-bottom:groove ;
-	width: 200px;
-	height: 200px;
-	top: 604px;
-	left: 40px;
-}
-
-.absolute_inny
-{
-	position: absolute;
-	
-	border-top: groove;
-	border-left: solid silver 5px;
-	border-right:transparent ;
-	border-bottom:groove ;
-	width: 200px;
-	height: 200px;
-	top: 806px;
-	left: 40px;
-}
-
-.absolute_tas
-{
-	position: absolute;
-	
-	border-top: groove;
-	border-left: solid silver 5px;
-	border-right:transparent ;
-	border-bottom:transparent ;
-	width: 200px;
-	height: 100px;
-	top:1008px;
-	left: 40px;
-}
-
-.absolute_tasnmek
-{
-	position: absolute;
-	
-	border-radius: 50%;
-	background-color: silver;
-	width: 50px;
-	height: 50px;
-	top:1110px;
-	left: 17px;
-}
-
-.absolute_tasnerku
-{
-	position: absolute;
-	border: transparent;
-	width: 150px;
-	height: 150px;
-	top: 530px;
-	left: 100px;
-	background-image: url("harsanekan.jpg");
-	background-size: cover;
-	background-position: center;
-	
-}
-
-.absolute_tasnereq
-{
-	position: absolute;
-	border: groove;
-	width: 1100px;
-	height: 150px;
-	top: 530px;
-	left: 300px;
-	
-}
-
-.orang
-{
-	color: orange;
-}
-
-.absolute_tasnchors
-{
-	position: absolute;
-	border: transparent;
-	width: 150px;
-	height: 150px;
-	top: 730px;
-	left: 130px;
-	background-image: url("kaput.jpg");
-	background-size: cover;
-	background-position: center;
-	
-}
-
-.absolute_tasnhing
-{
-	position: absolute;
-	border: groove;
-	width: 1100px;
-	height: 150px;
-	top: 730px;
-	left: 330px;
-	
-}
-
-.absolute_tasnvec
-{
-	position: absolute;
-	border: transparent;
-	width: 150px;
-	height: 150px;
-	top: 930px;
-	left: 160px;
-	background-image: url("vard.jpg");
-	background-size: cover;
-	background-position: center;
-	
-}
-
-.absolute_tasnjot
-{
-	position: absolute;
-	border: groove;
-	width: 1100px;
-	height: 150px;
-	top: 930px;
-	left: 360px;
-	
-}
-
-.menu_ereq
-{
-	border: transparent;
-	height: 720px;
-	background-image: url("daroga.jpg");
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	clip-path: polygon(0 0,100% 10%, 100% 90%, 0 100%);
-}
-
-.section_mek
-{
+	width: 30%;
+	height: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	font-size: 180px;
+	color: gold;
+
+}
+
+#min{
 	border: transparent;
-	width: 500px;
-	height: 500px;
-	background-color: rgba(0, 0, 0, 0.5);
-	margin-left: 50px;
-
-}
-
-.inside_mek
-{
-	width: 400px;
-	height: 250px;
-	border: transparent;
-}
-
-.whith
-{
-	color: white;
-}
-.inside_erku
-{
+	width: 30%;
+	height: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 180px;
+	color: gold;
+
+
+}
+
+#sec{
 	border: transparent;
-	width: 400px;
-	height: 100px;
-}
-
-.sexmak_mek
-{
-	background-color: white;
-	padding: 15px 30px;
-}
-
-
-.menu_chors
-{
-	border: transparent;
-	height: 720px;
-
-}
-
-.section_erku
-{
-	border: transparent;
-	width: 100%;
-	height: 150px;
-	text-align: center;
-}
-
-.section_ereq
-{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	border: transparent;
-	width: 100%;
-	height: 550px;
-	text-align: center;
-}
-
-.inside_ereq
-{
-	border: transparent;
-	width: 400px;
-	height: 500px;
-}
-
-.box_mek
-{
+	width: 30%;
+	height: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 180px;
+	color: gold;
+
+
+}
+
+.box{
+	border: solid 1px;
 	width: 100%;
-	height: 100px;
-	border: transparent;
-}
-
-.box_erku
-{
-	display: flex;
-	align-items: center;
-	text-align: left;
-	width: 100%;
-	height: 300px;
-	border: transparent;
-}
-
-.box_ereq
-{
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	width: 100%;
-	height: 80px;
-	border: transparent;
-}
-
-.sexmak_erku
-{
-	color: white;
-	background-color: #20B9D3;
-	border: transparent;
-	padding: 15px 50px;
-}
-
-.icon
-{
-	font-size: 50px;
-}
-
-.menu_hing
-{
-	border: transparent;
-	height: 720px;
-	background-image: url("turma.jpg");
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-around;
-	clip-path: polygon(0 10%,100% 0, 100% 100%, 0 100%);
-}
-
-
-.section_chors
-{
-	width: 500px;
 	height: 600px;
-	border: transparent;
+	background-color: #000;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.form_mek
-{
-	padding: 16px 60px;
-	border-radius: 6px;
-
+.slayder{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px) rotateY(0deg);
 }
 
-.form_mek::placeholder
-{color:#20B9D3;}
-
-
-
-.sexmak_hing
-{
-	border: transparent;
-	border-radius: 5px;
-	padding: 10px 30px;
-	color: white;
-	background-color: #20B9D3;
+.slayder span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform-origin: center;
+	transform-style: preserve-3d;
+	transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+	-webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0008);
 }
 
-.section_hing
-{
-	width: 600px;
-	height: 600px;
-	border: transparent;
+
+.slayder span img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
-.box_chors
-{
+#product{
 	border: transparent;
 	width: 100%;
-	height: 50px;
-	text-align: right;
+	height: 100px;
+	background: #000000;
+    background: linear-gradient(to bottom, #000000 34%, #28282C 71%);
+    font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
 
-.box_hing
-{
+
+#information{
+	position: relative;
 	border: transparent;
 	width: 100%;
 	height: 400px;
+	background-color: #28282C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#inpu1{
+	border: transparent;
+	position: absolute;
+	width: 60%;
+	height: 22%;
+	top: 20%;
+	left: 5%;
+	font-size: 20px;
 	
-	text-align: left;
+}
+
+
+#inpu2{
+	border: transparent;
+	position: absolute;
+	width: 25%;
+	height: 22%;
+	top: 20%;
+	left: 70%;
+	
+}
+
+
+#inpu3{
+	border: transparent;
+	position: absolute;
+	width: 90%;
+	height: 15%;
+	top: 45%;
+	left: 5%;
+	background-color: #70C770;
+	color: white;
+
+	display:none;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#inpu4{
+	border:transparent;
+	position: absolute;
+	width: 60%;
+	height: 15%;
+	top: 65%;
+	left: 5%;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+#inpu5{
+	border: transparent;
+	position: absolute;
+	width:25%;
+	height: 34%;
+	top: 65%;
+	left: 70%;
+	
+
+}
+
+form{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	
+}
+
+input{
+	background-color: transparent;
+	padding: 10px 30px;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom: solid 1px white;
+	color: white;
+}
+
+#send1{
+	padding: 15px 100px ;
+	background-color: transparent;
+	border: solid 2px white;
+	color: white;
+	cursor: pointer;
+	
+}
+
+#send1:hover{
+	background-color:#70C670;
+}
+
+#send2{
+	padding: 15px 100px ;
+	background-color: transparent;
+	border: solid 2px white;
+	color: white;
+	cursor: pointer;
+}
+
+#send2:hover{
+	background-color:#70C670;
+
+}
+
+
+#reg_for{
+	border: transparent;
+	width: 100%;
+	height: 600px;
+	background-image: url("sunset.jpg");
+	background-size: cover;
+	background-position: center;
+	display:none;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#for_menu{
+	position: relative;
+	border: solid;
+	width: 50%;
+	height: 70%;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow:0px 0px 234px 102px rgba(247,13,13,0.41);
+	-moz-box-shadow: 0px 0px 234px 102px rgba(247,13,13,0.41);
+	box-shadow: 0px 0px 234px 102px rgba(247,13,13,0.41);
+}
+
+#registr1{
+	position: absolute;
+	border: transparent;
+	width: 30%;
+	height: 17%;
+	top: 10%;
+	left: 5%;
+	z-index: 9;
+	color: white;
+  
+
+}
+
+#registr2{
+	position: absolute;
+	border:transparent;
+	width: 30%;
+	height: 60%;
+	top: 30%;
+	left: 5%;
+	z-index: 9;
+	color: white;
+  
+
+}
+
+#registr3{
+	position: absolute;
+	border:transparent;
+	width: 50%;
+	height: 90%;
+	top: 5%;
+	left: 40%;
+	z-index: 9;
+	color: white;
+
+
+}
+
+#form_register{
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.a{
+	background-color: transparent;
+	padding: 12px 40px;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom: solid 1px white;
+	color: white;
+
+}
+
+
+.b{
+	padding: 12px 60px;
+	border: solid ;
+	border-radius: 10px;
+	margin-top: 20%;
+
+
+}
+
+
+
+#contacts{
+	border: transparent;
+	width: 100%;
+	height: 500px;
+	display: none;
+	color: white;
+	background-color: #000;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+
+
+.list_tass
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: transparent;
+	height: 400px;
+}
+
+.gg
+{
+	border: transparent;
+	height: 300px;
+	width: 600px;
+}
+.ff
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 10px ;
+	border-color: #FCAE1E;
+	height: 300px;
+	width: 600px;
+}
+
+.asa
+{
+	border: transparent;
+	width: 500px;
+	height: 250px;
+}
+
+.sexmak_verji
+{
+	border: transparent;
+	background:#211073 ;
+	color: white;
+	padding: 10px 30px;
 }
